@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureTech | Digital Consulting & Cybersecurity</title>
+    <link rel ="stylesheet" href="nada.css">
+</head>
+<body>
+    <!-- 1. Navigation Bar -->
+    <header>
+        <h2>SecureTech</h2>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+    <!-- 2. Hero Section -->
+    <section id="hero">
+        <h1>We Build Fast & Secure Websites</h1>
+        <p>Transforming your ideas into modern digital solutions, hardened against cybersecurity threats.</p>
+       <a href="#contact" class="hero-btn">Get Free Consultation</a>
+    </section>
+
+    <hr>
+    <!-- 3. Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        
+        <div>
+            <h3>Web Development</h3>
+            <p>Building responsive, modern websites tailored to your business needs.</p>
+        </div>
+
+        <div>
+            <h3>Website Security (Hardening)</h3>
+            <p>Vulnerability assessment and security measures to protect client data.</p>
+        </div>
+
+        <div>
+            <h3>Digital Consulting</h3>
+            <p>Strategic advice to choose the best technology stack for your growth.</p>
+        </div>
+    </section>
+
+    <hr>
+    <!-- 4. Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/xjybllok" method="POST">
+            <label> Your Name:</label><br>
+            <input type="text"  name="name" placeholder="Enter your name" required><br><br>
+
+            <label>Your Email:</label><br>
+            <input type="email" name="email" placeholder="example@mail.com" required><br><br>
+
+            <label>Message:</label><br>
+            <input type="Message" placeholder="Tell Us More About Your Project" required><br><br>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+
+    <hr>
+    <!-- 5. Footer -->
+    <footer>
+        <p>© 2026 SecureTech. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Modal Window (النافذة المنبثقة) -->
+<div id="service-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="modal-title">Service Title</h2>
+        <p id="modal-desc">Service details will go here...</p>
+        
+        <form id="service-form">
+            <label>Your Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Your Email:</label>
+            <input type="email" placeholder="example@mail.com" required>
+
+            <label>Project Details / Requirements:</label>
+            <textarea placeholder="Tell us more about your project..."></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
